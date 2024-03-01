@@ -7,11 +7,11 @@ here are the packages you need to install to run the project succesfully.
 first in backend folder 
 1.cd backend
 2. npm install these following packages
-   express
-   colors
-   cors
-   pg
-   nodemon
+   express,
+   colors,
+   cors,
+   pg,
+   nodemon.
 Second in the myapp(frontend) part
  1.cd myapp
  2.npm install axios react-paginate react-table
