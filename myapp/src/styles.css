@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+.headingg{
+  margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:50px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding:10px 0;
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+  }
+
+  td {
+    padding: 10px 0;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  .pagination a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination .active a {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+  }
+  
+  .pagination .disabled a {
+    color: #aaa;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+
+.sort-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .reset-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .sort-button:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  input {
+    padding: 7px;
+    width: 300px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
